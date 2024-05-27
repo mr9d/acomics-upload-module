@@ -24,7 +24,7 @@ declare type IssueFile = {
   card?: HTMLElement
 };
 
-const ADD_ISSUE_ACTION_URL = '/action/manageAddIssue';
+const ADD_ISSUE_ACTION_PATH = '/action/manage/addIssue';
 
 const issuesToUpload: IssueFile[] = [];
 let modalIndex = 0;
@@ -253,7 +253,7 @@ const uploadImages = async (serialId: number) => {
 
     const formElement = document.createElement('form');
     formElement.setAttribute('method', 'post');
-    formElement.setAttribute('action', ADD_ISSUE_ACTION_URL);
+    formElement.setAttribute('action', ADD_ISSUE_ACTION_PATH);
     formElement.enctype = 'multipart/form-data';
 
     const comicsId = document.createElement('input');
