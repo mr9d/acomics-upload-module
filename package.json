@@ -1,7 +1,7 @@
 {
   "name": "acomics-upload-module",
   "repository": "git@github.com:mr9d/acomics-upload-module.git",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Acomics webcomics publishing platform module to load images more convenient",
   "main": "dist/bundle.js",
   "scripts": {
